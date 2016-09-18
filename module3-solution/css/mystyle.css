@@ -4,35 +4,25 @@ body {
 }
 
 #header-nav {
-    background-color: yellowgreen;
+    background-color: #ccffcc;
     border-radius: 0;
     border: 0;
 }
 
-.h11 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 175%;
-}
-
 .navbar-brand h1 {
-    color: #990000;
+    color: #000;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.navbar-brand a:hover,
-.navbar-brand a:focus {
-    text-decoration: none;
-}
-
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-    border: 1px solid #990000;
+    border: 1px solid #000;
 }
 
 #nav-list a {
     text-align: center;
+    color: #000;
 }
 
 #nav-list a:hover {
@@ -44,37 +34,18 @@ body {
     margin-top: -30px;
 }
 
-h2 {
-    width: 150px;
-    font-size: 125%;
-    text-align: center;
-    border: 1px solid black;
-    position: absolute;
-    right: -1px;
-    margin-top: -1px;
-}
-
-p {
-    padding: 25px 10px 10px 10px;
-}
-
-.chicken {
-    background-color: #ff8c1a;
-}
-
-.beef {
-    background-color: #990000;
-}
-
-.sushi {
-    background-color: #446600;
-}
-
-.containerown {
-    border: 1px solid black;
-    background-color: #b3b3b3;
-    box-sizing: border-box;
+.container-fluid {
     text-align: justify;
-    margin: 10px;
-    position: relative;
+    background-color: #ccefff;
+    margin-bottom: 15px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.container-fluid a:hover {
+    color: #000;
 }
