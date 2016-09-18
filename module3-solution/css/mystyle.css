@@ -21,12 +21,8 @@ body {
     margin-bottom: 0;
 }
 
-.navbar-brand span {
-    vertical-align: middle;
-}
-
-.navbar-header a:hover,
-.navbar-header a:focus {
+.navbar-brand a:hover,
+.navbar-brand a:focus {
     text-decoration: none;
 }
 
@@ -44,8 +40,8 @@ body {
 }
 
 .navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+    clear: both;
+    margin-top: -30px;
 }
 
 h2 {
