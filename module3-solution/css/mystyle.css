@@ -15,9 +15,14 @@ body {
     font-size: 175%;
 }
 
-.navbar-header h1 {
-    text-shadow: 1px 1px 1px #222;
+.navbar-brand h1 {
     color: #990000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand span {
+    vertical-align: middle;
 }
 
 .navbar-header a:hover,
@@ -25,7 +30,23 @@ body {
     text-decoration: none;
 }
 
-.navbar-header span {}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #990000;
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
 
 h2 {
     width: 150px;
@@ -60,26 +81,4 @@ p {
     text-align: justify;
     margin: 10px;
     position: relative;
-}
-
-@media (min-width: 992px) {
-    .col-lg-4 {
-        float: left;
-    }
-    .col-lg-4 {
-        width: 33.3%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6,
-    .col-md-12 {
-        float: left;
-    }
-    .col-md-6 {
-        width: 50%;
-    }
-    .col-md-12 {
-        width: 100%;
-    }
 }
